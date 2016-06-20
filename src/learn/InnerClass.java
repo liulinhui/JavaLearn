@@ -1,4 +1,4 @@
-package demo;
+package learn;
 public class InnerClass {  
     private String label="ºÏ·Ê";  
     class Destination{  
