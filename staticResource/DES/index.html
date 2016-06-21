@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>3DES加密</title>
+<script type="text/javascript" src="des.js"></script>
+<script type="text/javascript" src="../common/jquery-1.9.1.js"></script>
+</head>
+<script>
+	var key1 = "jdsnksfhfuh";
+	var key2 = "dffghgfhf";
+	var key3 = "grgrggerzvddsfssfhfuh";
+	var data = "adminFuck";
+	var encode = strEnc(data, key1, key2, key3);
+	alert(encode);
+	var decode = strDec(encode, key1, key2, key3);
+	alert(decode);
+</script>
+<body>
+</body>
+</html>
