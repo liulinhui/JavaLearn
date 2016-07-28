@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 3DES¼ÓÃÜ
+ * 3DESï¿½ï¿½ï¿½ï¿½
  * @author linkage
  *
  */
@@ -26,7 +26,7 @@ public class desToJs {
 	}
 
 	/**
-	 * des¼ÓÃÜ/½âÃÜ
+	 * desï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @Copyright Copyright (c) 2006
 	 * @author Guapo
@@ -289,6 +289,7 @@ public class desToJs {
 		}
 		return decStr;
 	}
+	
 
 	/*
 	 * chang the string into the bit array
