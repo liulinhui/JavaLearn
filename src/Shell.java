@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Shell {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		try {
 			String commands = " tar -zxvf /home/liulinhui/文档/software/pycharm-professional-2016.2.tar.gz";
 			Process process = Runtime.getRuntime().exec(commands);
@@ -16,6 +16,7 @@ public class Shell {
 			while ((line = input.readLine()) != null) {
 				System.out.println(line);
 			}
+			System.out.println(process.waitFor());
 		} catch (java.io.IOException e) {
 			System.err.println("IOException " + e.getMessage());
 		}
