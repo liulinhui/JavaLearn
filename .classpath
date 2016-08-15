@@ -3,7 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="setOperation"/>
 	<classpathentry kind="src" path="codeFragment"/>
-	<classpathentry kind="src" path="java8"/>
 	<classpathentry kind="src" path="NIOtest"/>
 	<classpathentry kind="src" path="threadTest"/>
 	<classpathentry kind="lib" path="lib/bcprov-jdk16-1.46.jar"/>
